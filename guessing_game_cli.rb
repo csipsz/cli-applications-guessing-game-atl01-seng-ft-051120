@@ -10,6 +10,6 @@ def run_guessing_game
    puts "Goodbye!"
   elsif guess.to_i != number 
   binding.pry
-    puts `Sorry! The computer guessed #{number}.`
+    puts "Sorry! The computer guessed #{number}."
   end
 end
