@@ -4,7 +4,7 @@ def run_guessing_game
   guess = gets.chomp
   if number == guess.to_i 
     puts 'You guessed the correct number!'
-  elsif guess.downcase = 'exit'
+  elsif guess.downcase! = 'exit'
    puts "Goodbye!"
   else 
     puts `Sorry! The computer guessed #{number}.`
