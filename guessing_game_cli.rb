@@ -1,5 +1,3 @@
-require 'pry'
-
 def run_guessing_game
   number = rand(6) + 1 
   puts "Hi guessing gamer! Choose a number between 1 and 6!"
@@ -12,3 +10,5 @@ def run_guessing_game
    puts "Goodbye!"
   end
 end
+
+
